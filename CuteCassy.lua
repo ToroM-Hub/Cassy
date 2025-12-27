@@ -474,7 +474,7 @@ AddExp.MouseButton1Click:Connect(function()
         local method = getnamecallmethod()
         if method == "FireServer" or method == "InvokeServer" then
             if remote.Name == "UnloadPassenger" then
-                for i = 1, 1000 do
+                for i = 1, 1 do
                     old(remote, ...)
                 end
             end
